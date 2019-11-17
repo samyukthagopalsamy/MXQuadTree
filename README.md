@@ -13,7 +13,7 @@ Value of k decides the height of the MX-Quad tree. It remains fixed for all node
 Attribute level represents the current height of particular node. <br>
 <br>
 Two constructors<br>
-1. Only for the root node, which sets middle point of the grid as x and y for the root.<br><br>
+1. Only for the root node, which sets middle point of the grid as x and y for the root.<br>
 2. For all the other non-root nodes which assigns the specified x, y value. <br>
 Initially, the attributes NW, NE, SW, SE will be assigned to null and k is the same for all nodes but level differs.<br>
 <br>
