@@ -15,7 +15,7 @@ Attribute level represents the current height of particular node. <br>
 Two constructors<br>
 1. Only for the root node, which sets middle point of the grid as x and y for the root.<br>
 2. For all the other non-root nodes which assigns the specified x, y value. <br>
-Initially, the attributes NW, NE, SW, SE will be assigned to null and k is the same for all nodes but level differs.<br>
+Initially, the attributes NW, NE, SW, SE will be assigned to null and k is the same for all nodes but level differs.
 <br>
 public void print(MXQuadNode head, String direction);
 // recursive function for printing out the elements
